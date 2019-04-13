@@ -126,6 +126,16 @@ public class gg extends JFrame {
                         Math.cos(Double.parseDouble(an)));
             }
         });
+        
+        tan.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String an = JOptionPane.showInputDialog("Enter the number");
+                JOptionPane.showMessageDialog(null,"Tan of the number is: " +
+                        Math.tan(Double.parseDouble(an)));
+            }
+        });
+        
         square.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
