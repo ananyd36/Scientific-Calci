@@ -8,7 +8,7 @@ public class gg extends JFrame {
 
     JFrame frame;
     JButton button,button1,button2,button3,exitbutton,input,input1,sin,cos,square,cube,sqr;
-    JLabel jLabel,jLabel1,jlabel2;
+    JLabel jLabel,jLabel1,jlabel2,jLabel3;
     gg()
     {
 
@@ -25,6 +25,7 @@ public class gg extends JFrame {
         jLabel = new JLabel("CALCULATOR APPLICATION");
 
         jlabel2 = new JLabel("Enter your Suggestions:");
+        jlabel3 = new JLabel("Custom");
         square = new JButton("SQUARE");
         cube = new JButton("CUBE");
         sqr = new JButton("SQRT");
@@ -44,10 +45,12 @@ public class gg extends JFrame {
         square.setBounds(30,240,100,50);
         cube.setBounds(140,240,100,50);
         sqr.setBounds(250,240,100,50);
+        jlabel3.setBounds(250,240,100,50);
 
 
 
         add(button);
+        add(jlabel3);
         add(sin);
         add(cos);
         add(sqr);
